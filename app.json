@@ -5,7 +5,10 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+<<<<<<< HEAD
     "userInterfaceStyle": "light",
+=======
+>>>>>>> 02b821a1a49b6801d9d8e0e3a6a24ed68ce653a9
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -14,7 +17,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
+<<<<<<< HEAD
     "assetBundlePatterns": ["**/*"],
+=======
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+>>>>>>> 02b821a1a49b6801d9d8e0e3a6a24ed68ce653a9
     "ios": {
       "supportsTablet": true
     },

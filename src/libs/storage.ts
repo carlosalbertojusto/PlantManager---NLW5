@@ -74,7 +74,11 @@ export async function savePlant(plant: PlantProps): Promise<void> {
         ...oldPlants,
       })
     );
+<<<<<<< HEAD
   } catch (error : any) {
+=======
+  } catch (error) {
+>>>>>>> 02b821a1a49b6801d9d8e0e3a6a24ed68ce653a9
     throw new Error(error);
   }
 }
@@ -100,7 +104,11 @@ export async function loadPlant(): Promise<PlantProps[]> {
       );
 
     return plantsSorted;
+<<<<<<< HEAD
   } catch (error : any) {
+=======
+  } catch (error) {
+>>>>>>> 02b821a1a49b6801d9d8e0e3a6a24ed68ce653a9
     throw new Error(error);
   }
 }
